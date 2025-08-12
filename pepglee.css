@@ -1,0 +1,299 @@
+body {
+    background-image: url('https://64.media.tumblr.com/149420ed401364bcab6f23a82759b22e/tumblr_inline_mqijksYTyD1qz4rgp.png');
+    font-family: 'handwriting', Ms PGothic;
+    color: rgb(255, 103, 151);
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+}
+
+::selection {
+    background: rgb(176, 255, 139);
+    color: rgb(137, 35, 69);
+}
+
+.bookmark {
+    z-index: -1;
+    color: rgb(255, 248, 250);
+      text-shadow: 2px 2px #ff399f;
+}
+
+   @font-face {
+   	font-family: 'big curls';
+   	src: url('https://file.garden/Zv1MLQCfQw2sUTDs/Mf%20Love%20Song.ttf');
+   }
+
+   @font-face {
+    font-family: 'handwriting';
+    src: url('https://file.garden/Zv1MLQCfQw2sUTDs/Handwriting-Regular.otf')
+   }
+   #header {
+    font-family: 'big curls';
+    font-size: 7vh;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #e81313, -1px 1px 0 #1d7004, 1px 1px 0 #961717;
+   }
+
+
+.decor {
+    position: absolute;
+}
+
+#parfait {
+    margin-left: 269px;
+    transform: rotate(5deg);
+    background-image: url('https://file.garden/Zv1MLQCfQw2sUTDs/image_2025-07-23_112637873-removebg-preview.png');
+    height: 600px;
+    width: 400px;
+    filter: brightness(130%)
+}
+
+
+
+.gird {
+      display: grid;
+    grid-template-rows: 1fr;
+   	grid-template-columns: 1fr .9fr ;
+      gap: 17px;
+      padding-top: 15px;
+      padding-left: 10px;
+
+}
+
+.body {
+    text-align: center;
+    height: 1000px;
+    width: 750px;
+    margin: auto;
+    background-size: contain;
+}
+
+.grid-item {
+    background-color: rgb(255, 255, 255);
+}
+
+#one {
+          grid-row: span 2;
+}
+
+#four {
+    background-image: url('https://file.garden/Zv1MLQCfQw2sUTDs/image_2025-07-29_201322709-removebg-preview.png');
+    background-color: #1d700400;
+    background-size: contain;
+    height: 249px;
+    width: 250px;
+           grid-row: span 3;
+
+}
+
+#four > h3 {
+    margin-top: 44px;
+    margin-bottom: -20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#four > ul {
+    overflow-y: scroll;
+    height: 150px;
+    width: 170px;
+    text-align: left;
+}
+
+#logs {
+    margin-left: 30px;
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 150px;
+    width: 180px;
+    text-align: left;
+}
+
+#two {
+    background-image: url('https://64.media.tumblr.com/11e0f9113b441076ab09b7e061f30d62/9d57146603c56c5b-e4/s500x750/864e7f7f7542918ddc1038979d76f1dcd4c8bbc2.pnj');
+    background-size: cover;
+
+}
+
+#five {
+    grid-row: span 2;
+}
+#headerdecor {
+background-image: url('https://file.garden/Zv1MLQCfQw2sUTDs/IMG_6229.PNG');
+position: relative;
+    width: 1011px;    
+    height: 200px;
+z-index: 100;
+}
+
+   #logs::-webkit-scrollbar {
+   	width: 10px;
+   }
+
+   #logs::-webkit-scrollbar-thumb {
+   	background-color: #ffffff;
+   	border-radius: 5px;
+   	border: 3px solid #ffa3b6;
+    height: 20px;
+   }
+   
+#two {
+    background-color: #ffffff00;
+    background-image: url('https://file.garden/Zv1MLQCfQw2sUTDs/image_2025-07-30_141252485.png');
+    border-radius: 50px;
+    color: white;
+        text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #21a600, -1px 1px 0 #21a600, 1px 1px 0 #21a600;
+
+}
+
+#five{
+        background-color: #ffffff00;
+}
+
+
+#one  {
+    background-image: url('https://i.pinimg.com/736x/67/a2/af/67a2af6017ac50a09da4721082abd376.jpg');
+    background-size: contain;
+}
+
+.glowpad { margin: 0 auto; padding:10px; width:100%; box-sizing:border-box; }
+
+.glow {
+margin: 0 auto;
+width:100%;
+height:auto;
+border:3px solid pink;
+background:pink;
+border-radius:10px;
+box-shadow: 0px 0px 10px pink, 0px 0px 10px pink, 0px 0px 10px pink, 0px 0px 10px pink, 0px 0px 14px pink;
+color:rgb(255, 255, 255);
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.paint  {
+    transition: .5s ease;
+    display: block;
+    height: 300px;
+    width: auto;
+}
+
+.paint:hover {
+    transform: scale(120%);
+}
+
+.img-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.719); 
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    color: #ff19c2;
+    font-weight: bold;
+    font-size: 25px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: left;
+    padding: 10px;
+}
+
+.overlay > p {
+        margin-top: -5px;
+}
+
+
+.img-wrapper:hover .overlay {
+    opacity: 1;
+}
+
+.img-wrapper:active .overlay {
+    opacity: 1;
+}
+
+a {
+color:#ff7cd3
+}
+
+
+button {
+    background-color: #ff92bf;
+    border-radius: 5px;
+    font-family: big curls;
+    color:#fff5fc;
+    border: solid white;
+    font-size: 25px;
+}
+
+
+button:active {
+
+  transform: translateY(4px);
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.tag-label {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 17px;
+  color: white;
+  background: rgba(255, 138, 214, 0.841);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+
+ .collapsible-container {
+  width: 600px;
+  margin: auto;
+
+}
+
+.collapsible {
+  background: #ffffffa3;
+  border-radius: 8px;
+  transition:
+    max-height 0.5s cubic-bezier(.4,0,.2,1),
+    transform 0.5s cubic-bezier(.4,0,.2,1),
+    opacity 0.4s;
+  transform: translateY(40px) scaleY(0.95);
+  opacity: 0;
+  will-change: max-height, transform, opacity;
+  margin-top: -75px;
+}
+
+.collapsible.open {
+  max-height: 500px; 
+  transform: translateY(0) scaleY(1);
+  opacity: 1;
+  padding: 16px;
+    margin: 30px;
+}
